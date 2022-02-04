@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/nueva-ruta', (req, res) => {
-  res.send('hola soy una nueva ruta')
+  res.send('hola soy una nueva ruta :D')
 })
 
 app.get('/categories/:categoryId/products/:productId', (req, res) =>{
@@ -34,7 +34,7 @@ app.get('/users',(req,res) => {
       offset
     })
   }else{
-    res.send('No hay parametros')
+    res.send('No hay parametros JOJOJO')
   }
 })
 
